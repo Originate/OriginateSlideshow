@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'OriginateSlideshow_Example', :exclusive => true do
+  pod "OriginateSlideshow", :path => "../"
+end
+
+target 'OriginateSlideshow_Tests', :exclusive => true do
+  pod "OriginateSlideshow", :path => "../"
+
+  
+end
