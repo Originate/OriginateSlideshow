@@ -8,61 +8,66 @@
 
 /* Begin PBXBuildFile section */
 		044106C04F45117C761F09573ED86FA1 /* Pods-OriginateSlideshow_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 931E27654E246914CB029DEF3FD859CD /* Pods-OriginateSlideshow_Tests-dummy.m */; };
+		1CF688633780F10F549A4BABFCC82D0E /* OriginateSlideshowControlsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B1073EEF66654520C734F2383B1C2C9 /* OriginateSlideshowControlsView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1D34EE5D75BAEA1F77441411A892A3F9 /* Pods-OriginateSlideshow_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99DBD6AF19B89F06ED29862D8340B301 /* Pods-OriginateSlideshow_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4EB5DAE9706AC9CBF192B937DE3221B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		1EC0C4B4B6D30D916812F7D41CD2EC30 /* OriginateSlideshowPlayPauseView.h in Headers */ = {isa = PBXBuildFile; fileRef = D92CCE442AD08CBFC94BC3B13498CAD8 /* OriginateSlideshowPlayPauseView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		385BCFD6D262E4563C3732AE0026C446 /* OriginateSlide.h in Headers */ = {isa = PBXBuildFile; fileRef = B8B516602770B28056AC3F2B770DC864 /* OriginateSlide.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38924C4E4A3A7296DD85F8D2CA59D15D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		47C7AA03DF30ECEE3B9935BC1E1C9AC2 /* OriginateSlideshowBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CEA68404B24ECC678E863C081516474 /* OriginateSlideshowBuffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49C0A12E2C1FA0D1C0EADBFAE2498C40 /* OriginateSlideshowPlayPauseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C620275CE342F5984F2C7D6020A26B /* OriginateSlideshowPlayPauseView.m */; };
+		5F96CBB470BEDF69C7A5C26C6B4BF194 /* OriginateSlideshow-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E3C8BE0BFF0058FAF7507E6C51BEE63 /* OriginateSlideshow-dummy.m */; };
+		61175B719D1B706DB7F095B941A60B33 /* OriginateSlideshowControlsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 313631BC2C1A4F72A1EC088412327713 /* OriginateSlideshowControlsView.m */; };
+		705E986BB6DC7697A62E2C54CF0854FE /* OriginateSlideshowView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8346F866AD530AE9B1698ADE3D2B4F /* OriginateSlideshowView.m */; };
+		789251A2A5AE0FE82A2EB245C933C7AA /* OriginateSlideshowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D953553C31D2BEC314976ED03233BBC0 /* OriginateSlideshowViewController.m */; };
+		8ACA7A978C79403BEC50EDF68D4954EC /* OriginateSlideshowView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ADD94D4C2FD36B7CCCAA6D1B048AAA9 /* OriginateSlideshowView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8DE1CA326A116E4A3A1E71F9C54BE08F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		923F40EDF4997BACAC577D39D4CFEA2F /* OriginateSlideshow-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C459935DFF06F9090EBF8DA21A5ACFD /* OriginateSlideshow-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		940C94B2AA639A8A4A161F91A8A67B52 /* Pods-OriginateSlideshow_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E0607E834BCFF8515F76625F3C59DA8 /* Pods-OriginateSlideshow_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9FC649231C1BD97F00AE98E8 /* OriginateSlide.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FC649181C1BD97F00AE98E8 /* OriginateSlide.h */; };
-		9FC649241C1BD97F00AE98E8 /* OriginateSlideshowBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FC649191C1BD97F00AE98E8 /* OriginateSlideshowBuffer.h */; };
-		9FC649251C1BD97F00AE98E8 /* OriginateSlideshowBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC6491A1C1BD97F00AE98E8 /* OriginateSlideshowBuffer.m */; };
-		9FC649261C1BD97F00AE98E8 /* OriginateSlideshowControlsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FC6491B1C1BD97F00AE98E8 /* OriginateSlideshowControlsView.h */; };
-		9FC649271C1BD97F00AE98E8 /* OriginateSlideshowControlsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC6491C1C1BD97F00AE98E8 /* OriginateSlideshowControlsView.m */; };
-		9FC649281C1BD97F00AE98E8 /* OriginateSlideshowPlayPauseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FC6491D1C1BD97F00AE98E8 /* OriginateSlideshowPlayPauseView.h */; };
-		9FC649291C1BD97F00AE98E8 /* OriginateSlideshowPlayPauseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC6491E1C1BD97F00AE98E8 /* OriginateSlideshowPlayPauseView.m */; };
-		9FC6492A1C1BD97F00AE98E8 /* OriginateSlideshowView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FC6491F1C1BD97F00AE98E8 /* OriginateSlideshowView.h */; };
-		9FC6492B1C1BD97F00AE98E8 /* OriginateSlideshowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC649201C1BD97F00AE98E8 /* OriginateSlideshowView.m */; };
-		9FC6492C1C1BD97F00AE98E8 /* OriginateSlideshowViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FC649211C1BD97F00AE98E8 /* OriginateSlideshowViewController.h */; };
-		9FC6492D1C1BD97F00AE98E8 /* OriginateSlideshowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC649221C1BD97F00AE98E8 /* OriginateSlideshowViewController.m */; };
+		A5F037C837316519C4C8E76F1206C606 /* OriginateSlideshow.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E8F3E900CA9E435463BA59669ABDB190 /* OriginateSlideshow.bundle */; };
 		A9C45CF9EFC36267435D9F82D823E2A6 /* Pods-OriginateSlideshow_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C02876026EA066E5174BDA6A02EAF3C /* Pods-OriginateSlideshow_Example-dummy.m */; };
 		B5289202AA345E4146CB6A379CA8C61C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		C97E4A6B5779EB40CABD9A454517BD24 /* OriginateSlideshow-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E3C8BE0BFF0058FAF7507E6C51BEE63 /* OriginateSlideshow-dummy.m */; };
-		E36F28D5989443139B2B9345AA83259E /* OriginateSlideshow.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E8F3E900CA9E435463BA59669ABDB190 /* OriginateSlideshow.bundle */; };
+		E17105F87D4FE532E8081408B357F700 /* OriginateSlideshowBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 12026EC39DCAB225978E90A1BC7F9280 /* OriginateSlideshowBuffer.m */; };
+		E57C8FCA4290B90202D6281D74A0406F /* OriginateSlideshowViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 04B73392E554429E929FB5F5DEA10241 /* OriginateSlideshowViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F854F558D45DFC1BC2944A9243918326 /* OriginateSlideshow-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C459935DFF06F9090EBF8DA21A5ACFD /* OriginateSlideshow-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		20F2DA030AC769BC0661A17EC3735D34 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 435EA22AFFB9608A2DF7737F1AC9DBDC;
-			remoteInfo = "OriginateSlideshow-OriginateSlideshow";
-		};
 		26263C09524D07D13425A02E64F095C0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A92E411879C9843AEC2870455B4FE568;
+			remoteGlobalIDString = 579266B9C24FEBE8E37C0ADE9D70C60F;
 			remoteInfo = OriginateSlideshow;
+		};
+		4095804CF3A011AED9BC72BF73DD7293 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 533C54A53A4BC7F7BAB1ABF693AA75FF;
+			remoteInfo = "OriginateSlideshow-OriginateSlideshow";
 		};
 		AAE41EAF0132095BDC24F03CC02490D2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A92E411879C9843AEC2870455B4FE568;
+			remoteGlobalIDString = 579266B9C24FEBE8E37C0ADE9D70C60F;
 			remoteInfo = OriginateSlideshow;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04B73392E554429E929FB5F5DEA10241 /* OriginateSlideshowViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OriginateSlideshowViewController.h; sourceTree = "<group>"; };
 		05D3A41F3C04117633DC323C72E4960C /* Pods-OriginateSlideshow_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OriginateSlideshow_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0ADD94D4C2FD36B7CCCAA6D1B048AAA9 /* OriginateSlideshowView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OriginateSlideshowView.h; sourceTree = "<group>"; };
 		0C459935DFF06F9090EBF8DA21A5ACFD /* OriginateSlideshow-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OriginateSlideshow-umbrella.h"; sourceTree = "<group>"; };
 		1087CD55D3B5B5A8D1CCEEE234FA027D /* Pods_OriginateSlideshow_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OriginateSlideshow_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12026EC39DCAB225978E90A1BC7F9280 /* OriginateSlideshowBuffer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OriginateSlideshowBuffer.m; sourceTree = "<group>"; };
 		16EBF988A406C940DEFD50F152F0276A /* Pods-OriginateSlideshow_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OriginateSlideshow_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1CEA68404B24ECC678E863C081516474 /* OriginateSlideshowBuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OriginateSlideshowBuffer.h; sourceTree = "<group>"; };
 		1DD0338C66C272C541907D9ECB612E95 /* Pods_OriginateSlideshow_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OriginateSlideshow_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EF0AD6A41CF29CA3AFB87BCE64ED760 /* Pods-OriginateSlideshow_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OriginateSlideshow_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2DAC455844A879244112296137BBDA7E /* Pods-OriginateSlideshow_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OriginateSlideshow_Example-frameworks.sh"; sourceTree = "<group>"; };
 		300613414D6DB132364CF63DEF1B808D /* Pods-OriginateSlideshow_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-OriginateSlideshow_Example.modulemap"; sourceTree = "<group>"; };
+		313631BC2C1A4F72A1EC088412327713 /* OriginateSlideshowControlsView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OriginateSlideshowControlsView.m; sourceTree = "<group>"; };
 		33410C0273EC269624B0BCD863AEF6BA /* Pods-OriginateSlideshow_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OriginateSlideshow_Example-resources.sh"; sourceTree = "<group>"; };
 		3392B286838B2669A8D6DCD809899282 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3818ABAE508353FB334352623526A68F /* Pods-OriginateSlideshow_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OriginateSlideshow_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -71,29 +76,24 @@
 		3F571CF635F387D89C06CAC401C2CC34 /* Pods-OriginateSlideshow_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OriginateSlideshow_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		5E3C8BE0BFF0058FAF7507E6C51BEE63 /* OriginateSlideshow-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OriginateSlideshow-dummy.m"; sourceTree = "<group>"; };
 		6F87F085C68B9A51CE2FFF63624A010E /* Pods-OriginateSlideshow_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OriginateSlideshow_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		73C620275CE342F5984F2C7D6020A26B /* OriginateSlideshowPlayPauseView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OriginateSlideshowPlayPauseView.m; sourceTree = "<group>"; };
 		7B321F34667B9682B1CC0EF1E40D54AF /* OriginateSlideshow.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OriginateSlideshow.xcconfig; sourceTree = "<group>"; };
 		8658E978578F413CE860064DA13EA2E4 /* Pods-OriginateSlideshow_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OriginateSlideshow_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		870970AD3B370917F6B18A844FEECF7E /* Pods-OriginateSlideshow_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OriginateSlideshow_Tests-resources.sh"; sourceTree = "<group>"; };
+		8B1073EEF66654520C734F2383B1C2C9 /* OriginateSlideshowControlsView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OriginateSlideshowControlsView.h; sourceTree = "<group>"; };
 		8C02876026EA066E5174BDA6A02EAF3C /* Pods-OriginateSlideshow_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OriginateSlideshow_Example-dummy.m"; sourceTree = "<group>"; };
 		931E27654E246914CB029DEF3FD859CD /* Pods-OriginateSlideshow_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OriginateSlideshow_Tests-dummy.m"; sourceTree = "<group>"; };
 		99DBD6AF19B89F06ED29862D8340B301 /* Pods-OriginateSlideshow_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OriginateSlideshow_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9BFB3A8FA5ADF2FB463849878A04EA0A /* OriginateSlideshow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OriginateSlideshow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F5151B97F1800B130B0F995CC8F2A1B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9FC649181C1BD97F00AE98E8 /* OriginateSlide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OriginateSlide.h; sourceTree = "<group>"; };
-		9FC649191C1BD97F00AE98E8 /* OriginateSlideshowBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OriginateSlideshowBuffer.h; sourceTree = "<group>"; };
-		9FC6491A1C1BD97F00AE98E8 /* OriginateSlideshowBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OriginateSlideshowBuffer.m; sourceTree = "<group>"; };
-		9FC6491B1C1BD97F00AE98E8 /* OriginateSlideshowControlsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OriginateSlideshowControlsView.h; sourceTree = "<group>"; };
-		9FC6491C1C1BD97F00AE98E8 /* OriginateSlideshowControlsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OriginateSlideshowControlsView.m; sourceTree = "<group>"; };
-		9FC6491D1C1BD97F00AE98E8 /* OriginateSlideshowPlayPauseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OriginateSlideshowPlayPauseView.h; sourceTree = "<group>"; };
-		9FC6491E1C1BD97F00AE98E8 /* OriginateSlideshowPlayPauseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OriginateSlideshowPlayPauseView.m; sourceTree = "<group>"; };
-		9FC6491F1C1BD97F00AE98E8 /* OriginateSlideshowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OriginateSlideshowView.h; sourceTree = "<group>"; };
-		9FC649201C1BD97F00AE98E8 /* OriginateSlideshowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OriginateSlideshowView.m; sourceTree = "<group>"; };
-		9FC649211C1BD97F00AE98E8 /* OriginateSlideshowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OriginateSlideshowViewController.h; sourceTree = "<group>"; };
-		9FC649221C1BD97F00AE98E8 /* OriginateSlideshowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OriginateSlideshowViewController.m; sourceTree = "<group>"; };
 		B5D502793C212F65725747C427E0FB3F /* OriginateSlideshow-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OriginateSlideshow-prefix.pch"; sourceTree = "<group>"; };
+		B8B516602770B28056AC3F2B770DC864 /* OriginateSlide.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OriginateSlide.h; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CB7F3E0DF642189A52ACE524AC488EAA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB8346F866AD530AE9B1698ADE3D2B4F /* OriginateSlideshowView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OriginateSlideshowView.m; sourceTree = "<group>"; };
 		D2AAD0E26CCD19F94A1760BEC2479301 /* Pods-OriginateSlideshow_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OriginateSlideshow_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D92CCE442AD08CBFC94BC3B13498CAD8 /* OriginateSlideshowPlayPauseView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OriginateSlideshowPlayPauseView.h; sourceTree = "<group>"; };
+		D953553C31D2BEC314976ED03233BBC0 /* OriginateSlideshowViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OriginateSlideshowViewController.m; sourceTree = "<group>"; };
 		E8F3E900CA9E435463BA59669ABDB190 /* OriginateSlideshow.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OriginateSlideshow.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECB5C1AE521C986CEC550D6C4913E76E /* Pods-OriginateSlideshow_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-OriginateSlideshow_Tests.modulemap"; sourceTree = "<group>"; };
 		F2F301C361BAAF571E2CE6614F32FDC7 /* OriginateSlideshow.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = OriginateSlideshow.modulemap; sourceTree = "<group>"; };
@@ -101,26 +101,18 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2326DD0DA77E0B5BB4A6975F44E64153 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3F22D1A358F852705A0082DCC02A9A20 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B5289202AA345E4146CB6A379CA8C61C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8639D0955B363DD50969A88835891C52 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4EB5DAE9706AC9CBF192B937DE3221B5 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C1D2D83707522BFE76A811A638196E64 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,27 +124,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F9B0C8F88021FE29E97E76982B8E2296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38924C4E4A3A7296DD85F8D2CA59D15D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		06747ED4C2B78553DA9000D2616AFE32 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				9FC649181C1BD97F00AE98E8 /* OriginateSlide.h */,
-				9FC649191C1BD97F00AE98E8 /* OriginateSlideshowBuffer.h */,
-				9FC6491A1C1BD97F00AE98E8 /* OriginateSlideshowBuffer.m */,
-				9FC6491B1C1BD97F00AE98E8 /* OriginateSlideshowControlsView.h */,
-				9FC6491C1C1BD97F00AE98E8 /* OriginateSlideshowControlsView.m */,
-				9FC6491D1C1BD97F00AE98E8 /* OriginateSlideshowPlayPauseView.h */,
-				9FC6491E1C1BD97F00AE98E8 /* OriginateSlideshowPlayPauseView.m */,
-				9FC6491F1C1BD97F00AE98E8 /* OriginateSlideshowView.h */,
-				9FC649201C1BD97F00AE98E8 /* OriginateSlideshowView.m */,
-				9FC649211C1BD97F00AE98E8 /* OriginateSlideshowViewController.h */,
-				9FC649221C1BD97F00AE98E8 /* OriginateSlideshowViewController.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		32F3A3038D04963E4653FA1CD2EC9955 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -176,6 +158,24 @@
 				1087CD55D3B5B5A8D1CCEEE234FA027D /* Pods_OriginateSlideshow_Tests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		43DF50F65590AEF2EB2012F16740B79C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B8B516602770B28056AC3F2B770DC864 /* OriginateSlide.h */,
+				1CEA68404B24ECC678E863C081516474 /* OriginateSlideshowBuffer.h */,
+				12026EC39DCAB225978E90A1BC7F9280 /* OriginateSlideshowBuffer.m */,
+				8B1073EEF66654520C734F2383B1C2C9 /* OriginateSlideshowControlsView.h */,
+				313631BC2C1A4F72A1EC088412327713 /* OriginateSlideshowControlsView.m */,
+				D92CCE442AD08CBFC94BC3B13498CAD8 /* OriginateSlideshowPlayPauseView.h */,
+				73C620275CE342F5984F2C7D6020A26B /* OriginateSlideshowPlayPauseView.m */,
+				0ADD94D4C2FD36B7CCCAA6D1B048AAA9 /* OriginateSlideshowView.h */,
+				CB8346F866AD530AE9B1698ADE3D2B4F /* OriginateSlideshowView.m */,
+				04B73392E554429E929FB5F5DEA10241 /* OriginateSlideshowViewController.h */,
+				D953553C31D2BEC314976ED03233BBC0 /* OriginateSlideshowViewController.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -207,14 +207,6 @@
 			path = "Target Support Files/Pods-OriginateSlideshow_Example";
 			sourceTree = "<group>";
 		};
-		A1189B7FAE3F56ABEEA9D8C9932AA6BB /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				06747ED4C2B78553DA9000D2616AFE32 /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
 		AEAE9FB8CDCCD0C92EAE983B8D8B28E5 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -234,7 +226,7 @@
 		BD49313E3BAEE96E7C78C56944455B5E /* OriginateSlideshow */ = {
 			isa = PBXGroup;
 			children = (
-				A1189B7FAE3F56ABEEA9D8C9932AA6BB /* Pod */,
+				F8E8767A0009165D6626F451B8964000 /* Pod */,
 				32F3A3038D04963E4653FA1CD2EC9955 /* Support Files */,
 			);
 			name = OriginateSlideshow;
@@ -276,6 +268,14 @@
 			path = "Target Support Files/Pods-OriginateSlideshow_Tests";
 			sourceTree = "<group>";
 		};
+		F8E8767A0009165D6626F451B8964000 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				43DF50F65590AEF2EB2012F16740B79C /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -287,25 +287,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		47375E3E50147B35097DA77A3D1B01FB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				385BCFD6D262E4563C3732AE0026C446 /* OriginateSlide.h in Headers */,
+				F854F558D45DFC1BC2944A9243918326 /* OriginateSlideshow-umbrella.h in Headers */,
+				47C7AA03DF30ECEE3B9935BC1E1C9AC2 /* OriginateSlideshowBuffer.h in Headers */,
+				1CF688633780F10F549A4BABFCC82D0E /* OriginateSlideshowControlsView.h in Headers */,
+				1EC0C4B4B6D30D916812F7D41CD2EC30 /* OriginateSlideshowPlayPauseView.h in Headers */,
+				8ACA7A978C79403BEC50EDF68D4954EC /* OriginateSlideshowView.h in Headers */,
+				E57C8FCA4290B90202D6281D74A0406F /* OriginateSlideshowViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		69E44E830E88AF1BA836BECDB7C38AD7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1D34EE5D75BAEA1F77441411A892A3F9 /* Pods-OriginateSlideshow_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7B8EA749077D098B046FC46D024BC739 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9FC649241C1BD97F00AE98E8 /* OriginateSlideshowBuffer.h in Headers */,
-				9FC6492A1C1BD97F00AE98E8 /* OriginateSlideshowView.h in Headers */,
-				9FC649281C1BD97F00AE98E8 /* OriginateSlideshowPlayPauseView.h in Headers */,
-				923F40EDF4997BACAC577D39D4CFEA2F /* OriginateSlideshow-umbrella.h in Headers */,
-				9FC649261C1BD97F00AE98E8 /* OriginateSlideshowControlsView.h in Headers */,
-				9FC6492C1C1BD97F00AE98E8 /* OriginateSlideshowViewController.h in Headers */,
-				9FC649231C1BD97F00AE98E8 /* OriginateSlide.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,13 +330,13 @@
 			productReference = 1DD0338C66C272C541907D9ECB612E95 /* Pods_OriginateSlideshow_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		435EA22AFFB9608A2DF7737F1AC9DBDC /* OriginateSlideshow-OriginateSlideshow */ = {
+		533C54A53A4BC7F7BAB1ABF693AA75FF /* OriginateSlideshow-OriginateSlideshow */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 31F3C2BFC25CE4CF3EDA1E0A0C580012 /* Build configuration list for PBXNativeTarget "OriginateSlideshow-OriginateSlideshow" */;
+			buildConfigurationList = C9B33C4937299C2677819ACA34B6482E /* Build configuration list for PBXNativeTarget "OriginateSlideshow-OriginateSlideshow" */;
 			buildPhases = (
-				5C9E8511F944C0EF55D39074E110D02C /* Sources */,
-				C1D2D83707522BFE76A811A638196E64 /* Frameworks */,
-				95BA585B90649442228D0A3A162AB52D /* Resources */,
+				D53A1E776D782E1099CDAD6F5C1F30FD /* Sources */,
+				2326DD0DA77E0B5BB4A6975F44E64153 /* Frameworks */,
+				32A631CE740E5A589733F1CA4F9D8779 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -347,19 +347,19 @@
 			productReference = E8F3E900CA9E435463BA59669ABDB190 /* OriginateSlideshow.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		A92E411879C9843AEC2870455B4FE568 /* OriginateSlideshow */ = {
+		579266B9C24FEBE8E37C0ADE9D70C60F /* OriginateSlideshow */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B683FE3A50565EECC03B179EAAA4FA6C /* Build configuration list for PBXNativeTarget "OriginateSlideshow" */;
+			buildConfigurationList = D62C6EF165B2BE6F0808BBCBA9712B52 /* Build configuration list for PBXNativeTarget "OriginateSlideshow" */;
 			buildPhases = (
-				8D3A562A921FC2A8F1697EC5D3838336 /* Sources */,
-				8639D0955B363DD50969A88835891C52 /* Frameworks */,
-				C08E793958A9B6C324A1350B0D4C8FB0 /* Resources */,
-				7B8EA749077D098B046FC46D024BC739 /* Headers */,
+				E41057C9AF4D70ACFBFC33BFBBB2C63D /* Sources */,
+				F9B0C8F88021FE29E97E76982B8E2296 /* Frameworks */,
+				1D6E5D38718C7261F783B823BED3075D /* Resources */,
+				47375E3E50147B35097DA77A3D1B01FB /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1EE580FA203B2A5280D78537A8ACEEC1 /* PBXTargetDependency */,
+				6D96015F20252F5D219633D8C8391898 /* PBXTargetDependency */,
 			);
 			name = OriginateSlideshow;
 			productName = OriginateSlideshow;
@@ -405,8 +405,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A92E411879C9843AEC2870455B4FE568 /* OriginateSlideshow */,
-				435EA22AFFB9608A2DF7737F1AC9DBDC /* OriginateSlideshow-OriginateSlideshow */,
+				579266B9C24FEBE8E37C0ADE9D70C60F /* OriginateSlideshow */,
+				533C54A53A4BC7F7BAB1ABF693AA75FF /* OriginateSlideshow-OriginateSlideshow */,
 				08F44D5DBD15FB0C66ED7EB1A7E1A7AE /* Pods-OriginateSlideshow_Example */,
 				F41459244C836D054B5766DB7AD1C022 /* Pods-OriginateSlideshow_Tests */,
 			);
@@ -414,18 +414,18 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		95BA585B90649442228D0A3A162AB52D /* Resources */ = {
+		1D6E5D38718C7261F783B823BED3075D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5F037C837316519C4C8E76F1206C606 /* OriginateSlideshow.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C08E793958A9B6C324A1350B0D4C8FB0 /* Resources */ = {
+		32A631CE740E5A589733F1CA4F9D8779 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E36F28D5989443139B2B9345AA83259E /* OriginateSlideshow.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,23 +440,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5C9E8511F944C0EF55D39074E110D02C /* Sources */ = {
+		D53A1E776D782E1099CDAD6F5C1F30FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8D3A562A921FC2A8F1697EC5D3838336 /* Sources */ = {
+		E41057C9AF4D70ACFBFC33BFBBB2C63D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FC649271C1BD97F00AE98E8 /* OriginateSlideshowControlsView.m in Sources */,
-				9FC649291C1BD97F00AE98E8 /* OriginateSlideshowPlayPauseView.m in Sources */,
-				9FC6492D1C1BD97F00AE98E8 /* OriginateSlideshowViewController.m in Sources */,
-				9FC6492B1C1BD97F00AE98E8 /* OriginateSlideshowView.m in Sources */,
-				C97E4A6B5779EB40CABD9A454517BD24 /* OriginateSlideshow-dummy.m in Sources */,
-				9FC649251C1BD97F00AE98E8 /* OriginateSlideshowBuffer.m in Sources */,
+				5F96CBB470BEDF69C7A5C26C6B4BF194 /* OriginateSlideshow-dummy.m in Sources */,
+				E17105F87D4FE532E8081408B357F700 /* OriginateSlideshowBuffer.m in Sources */,
+				61175B719D1B706DB7F095B941A60B33 /* OriginateSlideshowControlsView.m in Sources */,
+				49C0A12E2C1FA0D1C0EADBFAE2498C40 /* OriginateSlideshowPlayPauseView.m in Sources */,
+				705E986BB6DC7697A62E2C54CF0854FE /* OriginateSlideshowView.m in Sources */,
+				789251A2A5AE0FE82A2EB245C933C7AA /* OriginateSlideshowViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,22 +471,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1EE580FA203B2A5280D78537A8ACEEC1 /* PBXTargetDependency */ = {
+		6D96015F20252F5D219633D8C8391898 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "OriginateSlideshow-OriginateSlideshow";
-			target = 435EA22AFFB9608A2DF7737F1AC9DBDC /* OriginateSlideshow-OriginateSlideshow */;
-			targetProxy = 20F2DA030AC769BC0661A17EC3735D34 /* PBXContainerItemProxy */;
+			target = 533C54A53A4BC7F7BAB1ABF693AA75FF /* OriginateSlideshow-OriginateSlideshow */;
+			targetProxy = 4095804CF3A011AED9BC72BF73DD7293 /* PBXContainerItemProxy */;
 		};
 		B0CB1CDCDA5A8834381A19F8021F777B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = OriginateSlideshow;
-			target = A92E411879C9843AEC2870455B4FE568 /* OriginateSlideshow */;
+			target = 579266B9C24FEBE8E37C0ADE9D70C60F /* OriginateSlideshow */;
 			targetProxy = AAE41EAF0132095BDC24F03CC02490D2 /* PBXContainerItemProxy */;
 		};
 		BC7F0FB1428D74C4D047AEB6C02905B1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = OriginateSlideshow;
-			target = A92E411879C9843AEC2870455B4FE568 /* OriginateSlideshow */;
+			target = 579266B9C24FEBE8E37C0ADE9D70C60F /* OriginateSlideshow */;
 			targetProxy = 26263C09524D07D13425A02E64F095C0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -565,7 +565,7 @@
 			};
 			name = Debug;
 		};
-		124A6D485FEE7102355EB37A70E4CE16 /* Debug */ = {
+		2DCCA3DBF7025E27B2BCA204C956D068 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7B321F34667B9682B1CC0EF1E40D54AF /* OriginateSlideshow.xcconfig */;
 			buildSettings = {
@@ -589,18 +589,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		67E181B003FBEB96A26BA7072B2E4153 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B321F34667B9682B1CC0EF1E40D54AF /* OriginateSlideshow.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = OriginateSlideshow;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -634,32 +622,17 @@
 			};
 			name = Debug;
 		};
-		A38F4DEE0E05D0BAB753DECD90D3D0C9 /* Release */ = {
+		B6B0183AA6AB01C23218DEC96AC74B3E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7B321F34667B9682B1CC0EF1E40D54AF /* OriginateSlideshow.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/OriginateSlideshow/OriginateSlideshow-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OriginateSlideshow/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OriginateSlideshow/OriginateSlideshow.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = OriginateSlideshow;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
-			name = Release;
+			name = Debug;
 		};
 		BAC23F817735766291E132CFA4E0EC07 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -688,18 +661,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C62F0D5B6B38E09BC0DF2416AA52DD4D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B321F34667B9682B1CC0EF1E40D54AF /* OriginateSlideshow.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = OriginateSlideshow;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -763,6 +724,45 @@
 			};
 			name = Release;
 		};
+		E939515EB241BCDAB557EE2A4E81CB2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B321F34667B9682B1CC0EF1E40D54AF /* OriginateSlideshow.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OriginateSlideshow/OriginateSlideshow-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OriginateSlideshow/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OriginateSlideshow/OriginateSlideshow.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = OriginateSlideshow;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EE3BA5F9E1A7D37668A513D847B9F3EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B321F34667B9682B1CC0EF1E40D54AF /* OriginateSlideshow.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = OriginateSlideshow;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -784,20 +784,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		31F3C2BFC25CE4CF3EDA1E0A0C580012 /* Build configuration list for PBXNativeTarget "OriginateSlideshow-OriginateSlideshow" */ = {
+		C9B33C4937299C2677819ACA34B6482E /* Build configuration list for PBXNativeTarget "OriginateSlideshow-OriginateSlideshow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				67E181B003FBEB96A26BA7072B2E4153 /* Debug */,
-				C62F0D5B6B38E09BC0DF2416AA52DD4D /* Release */,
+				B6B0183AA6AB01C23218DEC96AC74B3E /* Debug */,
+				EE3BA5F9E1A7D37668A513D847B9F3EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B683FE3A50565EECC03B179EAAA4FA6C /* Build configuration list for PBXNativeTarget "OriginateSlideshow" */ = {
+		D62C6EF165B2BE6F0808BBCBA9712B52 /* Build configuration list for PBXNativeTarget "OriginateSlideshow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				124A6D485FEE7102355EB37A70E4CE16 /* Debug */,
-				A38F4DEE0E05D0BAB753DECD90D3D0C9 /* Release */,
+				2DCCA3DBF7025E27B2BCA204C956D068 /* Debug */,
+				E939515EB241BCDAB557EE2A4E81CB2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

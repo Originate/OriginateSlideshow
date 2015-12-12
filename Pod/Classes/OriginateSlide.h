@@ -37,10 +37,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol OriginateSlide <NSObject>
 
-@property (nonatomic, strong, readonly) NSURL* url;
+@property (nonatomic, strong, readonly) NSURL* URL;
 @property (nonatomic, weak, nullable) id<OriginateSlideDelegate> delegate;
 
-- (instancetype)initWithURL:(NSURL *)url;
+- (instancetype)initWithURL:(NSURL *)URL;
 
 - (void)loadIntoView:(nullable UIView *)view;
 - (void)prepareForDismissal;

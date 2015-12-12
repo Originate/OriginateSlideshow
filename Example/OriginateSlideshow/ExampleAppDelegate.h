@@ -1,5 +1,5 @@
 //
-//  OriginateViewController.h
+//  ExampleAppDelegate.h
 //  OriginateSlideshow
 //
 //  Created by Allen Wu on 12/10/2015.
@@ -8,6 +8,8 @@
 
 @import UIKit;
 
-@interface OriginateViewController : UIViewController
+@interface ExampleAppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
 
 @end

@@ -13,8 +13,8 @@
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
-		6003F59E195388D20070C39A /* OriginateAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* OriginateAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* OriginateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* OriginateViewController.m */; };
+		6003F59E195388D20070C39A /* ExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* ExampleAppDelegate.m */; };
+		6003F5A7195388D20070C39A /* ExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* ExampleViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -23,6 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		9FC6492F1C1BDD0900AE98E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC6492E1C1BDD0900AE98E8 /* LaunchScreen.storyboard */; };
+		9FD294801C1BECF300EBC57B /* ExampleSlidePhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD2947F1C1BECF300EBC57B /* ExampleSlidePhoto.m */; };
 		E42ABBECD831B71ECA73F882 /* Pods_OriginateSlideshow_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13C59A22578521B775FB14A8 /* Pods_OriginateSlideshow_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,10 +50,10 @@
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6003F59B195388D20070C39A /* OriginateSlideshow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OriginateSlideshow-Prefix.pch"; sourceTree = "<group>"; };
-		6003F59C195388D20070C39A /* OriginateAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OriginateAppDelegate.h; sourceTree = "<group>"; };
-		6003F59D195388D20070C39A /* OriginateAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OriginateAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* OriginateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OriginateViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* OriginateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OriginateViewController.m; sourceTree = "<group>"; };
+		6003F59C195388D20070C39A /* ExampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleAppDelegate.h; sourceTree = "<group>"; };
+		6003F59D195388D20070C39A /* ExampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleAppDelegate.m; sourceTree = "<group>"; };
+		6003F5A5195388D20070C39A /* ExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleViewController.h; sourceTree = "<group>"; };
+		6003F5A6195388D20070C39A /* ExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* OriginateSlideshow_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OriginateSlideshow_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -64,6 +65,8 @@
 		863143884A7852266D321E2E /* Pods-OriginateSlideshow_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OriginateSlideshow_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OriginateSlideshow_Tests/Pods-OriginateSlideshow_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9FC6492E1C1BDD0900AE98E8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9FD2947E1C1BECF300EBC57B /* ExampleSlidePhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleSlidePhoto.h; sourceTree = "<group>"; };
+		9FD2947F1C1BECF300EBC57B /* ExampleSlidePhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleSlidePhoto.m; sourceTree = "<group>"; };
 		ABFA711175CEEFF133A334B2 /* OriginateSlideshow.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OriginateSlideshow.podspec; path = ../OriginateSlideshow.podspec; sourceTree = "<group>"; };
 		B10DB213CB835AAC27B18657 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BF0BD1E6DEBBC668C168B1AE /* Pods-OriginateSlideshow_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OriginateSlideshow_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-OriginateSlideshow_Example/Pods-OriginateSlideshow_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -143,12 +146,14 @@
 		6003F593195388D20070C39A /* Example for OriginateSlideshow */ = {
 			isa = PBXGroup;
 			children = (
-				6003F59C195388D20070C39A /* OriginateAppDelegate.h */,
-				6003F59D195388D20070C39A /* OriginateAppDelegate.m */,
+				6003F59C195388D20070C39A /* ExampleAppDelegate.h */,
+				6003F59D195388D20070C39A /* ExampleAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				9FC6492E1C1BDD0900AE98E8 /* LaunchScreen.storyboard */,
-				6003F5A5195388D20070C39A /* OriginateViewController.h */,
-				6003F5A6195388D20070C39A /* OriginateViewController.m */,
+				6003F5A5195388D20070C39A /* ExampleViewController.h */,
+				6003F5A6195388D20070C39A /* ExampleViewController.m */,
+				9FD2947E1C1BECF300EBC57B /* ExampleSlidePhoto.h */,
+				9FD2947F1C1BECF300EBC57B /* ExampleSlidePhoto.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -394,8 +399,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F59E195388D20070C39A /* OriginateAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* OriginateViewController.m in Sources */,
+				6003F59E195388D20070C39A /* ExampleAppDelegate.m in Sources */,
+				9FD294801C1BECF300EBC57B /* ExampleSlidePhoto.m in Sources */,
+				6003F5A7195388D20070C39A /* ExampleViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

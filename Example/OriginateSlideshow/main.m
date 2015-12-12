@@ -7,11 +7,11 @@
 //
 
 @import UIKit;
-#import "OriginateAppDelegate.h"
+#import "ExampleAppDelegate.h"
 
 int main(int argc, char * argv[])
 {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([OriginateAppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([ExampleAppDelegate class]));
     }
 }

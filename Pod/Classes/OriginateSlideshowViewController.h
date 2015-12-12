@@ -37,6 +37,7 @@
 
 @required
 
+/// Implement this delegate method to be notified when the slideshow is ready for playback.
 - (void)slideshowIsReady:(OriginateSlideshowViewController *)slideshow;
 - (void)slideshowIsFinished:(OriginateSlideshowViewController *)slideshow;
 - (void)slideshowIsDismissed:(OriginateSlideshowViewController *)slideshow;
