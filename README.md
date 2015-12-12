@@ -1,29 +1,46 @@
 # OriginateSlideshow
 
-[![CI Status](http://img.shields.io/travis/Allen Wu/OriginateSlideshow.svg?style=flat)](https://travis-ci.org/Allen Wu/OriginateSlideshow)
-[![Version](https://img.shields.io/cocoapods/v/OriginateSlideshow.svg?style=flat)](http://cocoapods.org/pods/OriginateSlideshow)
-[![License](https://img.shields.io/cocoapods/l/OriginateSlideshow.svg?style=flat)](http://cocoapods.org/pods/OriginateSlideshow)
-[![Platform](https://img.shields.io/cocoapods/p/OriginateSlideshow.svg?style=flat)](http://cocoapods.org/pods/OriginateSlideshow)
+> A customizable slideshow view controller.
+
+
+![](demo.gif)
+
+
+## Installation with CocoaPods
+
+Add the following lines to your Podfile and then run `pod install`.
+
+```ruby
+source 'https://github.com/Originate/CocoaPods.git'
+pod 'OriginateSlideshow'
+```
+
 
 ## Usage
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+Instantiate an `OriginateSlideshowViewController` and assign its `.dataSource` and `.delegate` properties for configuration. This should feel familiar to using a `UITableView`.
 
-## Requirements
+To being playing the slideshow, simply call `-resume` on the view controller.
 
-## Installation
+* `OriginateSlideshowDataSource`
 
-OriginateSlideshow is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+  ```objc
+  - (NSUInteger)numberOfSlidesInSlideshow:(OriginateSlideshowViewController *)slideshow;
+  - (NSTimeInterval)slideshow:(OriginateSlideshowViewController *)slideshow durationForSlideAtIndex:(NSUInteger)index;
+  - (NSTimeInterval)bufferDurationAmountForSlideshow:(OriginateSlideshowViewController *)slideshow;
+  - (id<OriginateSlide>)slideshow:(OriginateSlideshowViewController *)slideshow slideAtIndex:(NSUInteger)index;
+  - (BOOL)slideshowShouldAutomaticallyDismissWhenFinished:(OriginateSlideshowViewController *)slideshow;
+  ```
 
-```ruby
-pod "OriginateSlideshow"
-```
 
-## Author
+* `OriginateSlideshowDelegate`
 
-Allen Wu, allen.wu@ucla.edu
+  ```objc
+  - (void)slideshowIsReady:(OriginateSlideshowViewController *)slideshow;
+  - (void)slideshowIsFinished:(OriginateSlideshowViewController *)slideshow;
+  - (void)slideshowIsDismissed:(OriginateSlideshowViewController *)slideshow;
+  ```
 
 ## License
 
-OriginateSlideshow is available under the MIT license. See the LICENSE file for more info.
+OriginateSlideshow is available under the MIT license. See the [LICENSE](/LICENSE) file for more info.
