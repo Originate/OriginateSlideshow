@@ -50,7 +50,7 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 
-@protocol OriginateSlideIntrinsicPlayback <NSObject>
+@protocol OriginateSlideIntrinsicPlayback <OriginateSlide>
 
 - (NSTimeInterval)duration;
 - (void)play;
