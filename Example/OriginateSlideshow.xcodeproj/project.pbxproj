@@ -22,6 +22,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		9FC6492F1C1BDD0900AE98E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC6492E1C1BDD0900AE98E8 /* LaunchScreen.storyboard */; };
 		E42ABBECD831B71ECA73F882 /* Pods_OriginateSlideshow_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13C59A22578521B775FB14A8 /* Pods_OriginateSlideshow_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +63,7 @@
 		748E332D0558AD9FAE00E539 /* Pods_OriginateSlideshow_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OriginateSlideshow_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		863143884A7852266D321E2E /* Pods-OriginateSlideshow_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OriginateSlideshow_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OriginateSlideshow_Tests/Pods-OriginateSlideshow_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		9FC6492E1C1BDD0900AE98E8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABFA711175CEEFF133A334B2 /* OriginateSlideshow.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OriginateSlideshow.podspec; path = ../OriginateSlideshow.podspec; sourceTree = "<group>"; };
 		B10DB213CB835AAC27B18657 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BF0BD1E6DEBBC668C168B1AE /* Pods-OriginateSlideshow_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OriginateSlideshow_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-OriginateSlideshow_Example/Pods-OriginateSlideshow_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 				6003F59C195388D20070C39A /* OriginateAppDelegate.h */,
 				6003F59D195388D20070C39A /* OriginateAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				9FC6492E1C1BDD0900AE98E8 /* LaunchScreen.storyboard */,
 				6003F5A5195388D20070C39A /* OriginateViewController.h */,
 				6003F5A6195388D20070C39A /* OriginateViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
@@ -277,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				9FC6492F1C1BDD0900AE98E8 /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
