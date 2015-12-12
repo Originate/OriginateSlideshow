@@ -1,0 +1,14 @@
+PODS:
+  - OriginateSlideshow (0.1.0)
+
+DEPENDENCIES:
+  - OriginateSlideshow (from `../`)
+
+EXTERNAL SOURCES:
+  OriginateSlideshow:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OriginateSlideshow: 747d3e1526f95c3c06ad189470348e85237cac9c
+
+COCOAPODS: 0.39.0

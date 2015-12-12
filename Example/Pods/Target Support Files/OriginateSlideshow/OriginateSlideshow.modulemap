@@ -1,0 +1,6 @@
+framework module OriginateSlideshow {
+  umbrella header "OriginateSlideshow-umbrella.h"
+
+  export *
+  module * { export * }
+}
