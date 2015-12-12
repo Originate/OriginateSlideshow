@@ -154,7 +154,7 @@
 }
 
 
-#pragma mark - OriginateSlideshowBufferDelegate
+#pragma mark - <OriginateSlideshowBufferDelegate>
 
 - (void)slideshowBufferingDidBegin:(OriginateSlideshowBuffer *)buffer
 {
@@ -176,7 +176,7 @@
 }
 
 
-#pragma mark - OriginateSlideDelegate
+#pragma mark - <OriginateSlideDelegate>
 
 - (void)slideDidBeginLoading:(id<OriginateSlide>)slide
 {
@@ -238,6 +238,7 @@
     if ([self.dataSource slideshowShouldAutomaticallyDismissWhenFinished:self]) {
         [self reset];
         [self.delegate slideshowIsFinished:self];
+        [self.delegate slideshowIsDismissed:self];
     }
 }
 
